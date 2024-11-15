@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #24252a;
+}
+
+/* table {
+} */
+
+header {
+  background-color: #3c7e30;
+  box-shadow: 0px 3px 10px #24252a;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem; /* 1.5rem para cima e para baixo e 6rem para os lados */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.login-button button {
+  border: none;
+  background-color: #0187a7;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.login-button button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  .menu {
+    padding: 1.5rem 4rem;
+  }
+  .nav-item {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .mobile-menu .login-button button {
+    width: 100%;
+  }
+
+  /*quando o menu estiver aberto, mostrar o botão de fechar */
+  .open {
+    display: block;
+  }
+}
+
+.a {
+  height: 60%;
+  margin: auto;
+  padding: 60px;
+  display: flex;
+}
+
+.a .b {
+  img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.cabecalho {
+  width: 100%;
+
+  .verdinho {
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    margin: 40px;
+    background-color: green;
+  }
+}
+
+.a .c {
+  width: 100%;
+
+  h1,
+  p {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .contato {
+    color: rgb(20, 184, 20);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+  }
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas no grid  */
+  grid-template-rows: repeat(2, 1fr); /* 2 linhas no grid */
+  box-sizing: border-box; /* torna o elemento em linha horizontal */
+  place-content: center; /* centraliza o conteudo */
+  place-items: center; /* centraliza os itens */
+  gap: 60px; /* gap significa espacamento entre os itens */
+  padding: 30px; /* espacamento  entre os itens e o conteudo */
+}
+
+.sessoes {
+  width: 80%;
+  height: 110%;
+  display: flex;
+  flex-direction: column; /* torna o elemento em linha horizontal */
+  justify-content: center; /* centraliza o conteudo */
+  align-items: center; /* centraliza os itens */
+}
+
+.sessoes .box {
+  width: 90%;
+  height: 300%;
+  border-radius: 5px 5px 0 0;
+}
+
+.sessoes:nth-child(odd) .box {
+  background-color: gray;
+}
+
+.sessoes:nth-child(even) .box {
+  background-color: green;
+}
+
+.sessoes .texto {
+  width: 90%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+
+  .hh {
+    text-decoration: none;
+    color: black;
+  }
+}
