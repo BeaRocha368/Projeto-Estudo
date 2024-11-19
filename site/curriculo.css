@@ -136,33 +136,35 @@ header {
 .a .b {
   img {
     width: 450px;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
     box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
-.cabecalho {
-  width: 100%;
-
-  .verdinho {
-    width: 40%;
-    height: 100%;
-    padding: 20px;
-    margin: 40px;
-    background-color: green;
-  }
-}
-
 .a .c {
   width: 100%;
 
-  h1,
+  h1, h4,
   p {
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
+    margin: 20px;
+  }
+
+  h1 {
+    padding: 20px 30px;
+    background-color: green;
+    width: 70%;
+  }
+
+  h4 {
+    padding: 20px 30px 30px;
+    background-color: gray;
+    width: 50%;
+    height: 10px;
     margin: 20px;
   }
 
@@ -199,10 +201,7 @@ header {
     .hh {
       color: white;
     }
-
   }
-
-
 }
 
 .sessoes .box {
@@ -232,5 +231,27 @@ header {
   .hh {
     text-decoration: none;
     color: black;
+  }
+}
+
+.rodape {
+  width: 100%;
+
+  .verdinho {
+    width: 80%;
+    height: 20px;
+    padding: 20px;
+    margin: 40px;
+    background-color: green;
+    float: right;
+  }
+
+  .cinza {
+    width: 60%;
+    height: 10%;
+    padding: 20px;
+    margin: auto;
+    background-color: gray;
+    float: left;
   }
 }
