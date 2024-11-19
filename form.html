@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>contato</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <h2>Contato</h2>
+      <form action="./enviar.html" onsubmit="Enviar()" method="post">
+        <br />
+        <label for="nome">Nome:</label>
+        <br />
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email"
+        />
+        <br />
+        <label for="mensagem">Mensagem:</label>
+        <br />
+        <textarea
+          name="mensagem"
+          id="mensagem"
+          cols="30"
+          rows="5"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+        <br />
+        <input id="button" type="submit" value="Enviar" />
+      </form>
+    </div>
+    <script>
+      function Enviar() {
+        alert("Mensagem enviada com sucesso!");
+        window.location.href = "./enviar.html";
+      }
+    </script>
+  </body>
+</html>

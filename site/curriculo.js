@@ -8,3 +8,11 @@ function menuShow() {
     document.querySelector(".icon").src = "/imagens/close-menu.png";
   }
 }
+
+function mediaQuery() {
+  if (window.innerWidth > 70) {
+    menuMobile.classList.remove("open");
+  } else (Smartphone = true); {
+    
+  }
+}
