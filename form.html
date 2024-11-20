@@ -9,36 +9,39 @@
   <body>
     <div class="container">
       <div class="box"></div>
-      <h2>Contato</h2>
-      <form action="./enviar.html" onsubmit="Enviar()" method="post">
+      <h2>Entre em contato!</h2>
+      <form action="" onsubmit="Enviar()" method="post">
         <br />
-        <label for="nome">Nome:</label>
+        <!-- <label for="nome">Nome:</label> -->
         <br />
         <input
           type="text"
           name="nome"
           id="nome"
-          placeholder="Digite seu nome"
+          placeholder="Seu nome"
           required
         />
         <br />
-        <label for="email">Email:</label>
+        <!-- <label for="email">Email:</label> -->
         <br />
         <input
           type="email"
           name="email"
           id="email"
-          placeholder="Digite seu email"
+          placeholder="Seu email"
         />
-        <br />
-        <label for="mensagem">Mensagem:</label>
-        <br />
+
+        <br>
+        <!-- <label for="telefone">Telefone:</label> -->
+        <br>
+        <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone">
+        <br> <br>
         <textarea
           name="mensagem"
           id="mensagem"
           cols="30"
           rows="5"
-          placeholder="Digite sua mensagem"
+          placeholder="Sua mensagem"
         ></textarea>
         <br />
         <input id="button" type="submit" value="Enviar" />
@@ -47,7 +50,6 @@
     <script>
       function Enviar() {
         alert("Mensagem enviada com sucesso!");
-        window.location.href = "./enviar.html";
       }
     </script>
   </body>
