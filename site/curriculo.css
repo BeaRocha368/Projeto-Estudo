@@ -187,7 +187,7 @@ header {
 
 .sessoes {
   width: 80%;
-  height: 110%;
+  height: 150%;
   display: flex;
   flex-direction: column; /* torna o elemento em linha horizontal */
   justify-content: center; /* centraliza o conteudo */
@@ -195,35 +195,49 @@ header {
 
   div:hover {
     background-color: #0187a7;
+    cursor: pointer;
 
-    .hh {
+   /*  .hh {
       color: white;
-    }
+    } */
   }
 }
 
 .sessoes .box {
-  width: 90%;
+  img {
+    height: 240px;
+    width: 360px;
+    object-fit: cover;
+    padding: auto;
+  }
+/* width: 90%;
   height: 300%;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0; */
+
+/* .sobre {
+    width: 100%;
+    height: 100%;
+  } */
 }
 
-.sessoes:nth-child(odd) .box {
+/* .sessoes:nth-child(odd) .box {
   background-color: gray;
 }
 
 .sessoes:nth-child(even) .box {
   background-color: green;
-}
+} */
 
 .sessoes .texto {
-  width: 90%;
-  height: 240px;
+  width: 100%;
+  height: 60px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 5px;
+
   background-color: white;
 
   .hh {
