@@ -1,0 +1,3 @@
+Este projeto foi desenvolvido com o objetivo de aplicar os conhecimentos adquiridos ao longo da minha trajetória no Instituto Federal Catarinense – Campus Brusque como Técnica em Informática.
+A proposta consiste em um site modelo de currículo, utilizando JavaScript, HTML, CSS e React. O design inclui um menu responsivo para melhor navegação, e o objetivo é aprimorá-lo para que seja totalmente responsivo, garantindo uma experiência otimizada em diferentes dispositivos.
+Além das informações profissionais, o site conta com uma página de contato, permitindo que visitantes entrem em contato de forma direta e prática. Este projeto representa minha evolução na área de desenvolvimento web e minha dedicação em criar soluções funcionais e esteticamente atraentes.
