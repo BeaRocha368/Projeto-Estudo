@@ -204,9 +204,11 @@ header {
 }
 
 .sessoes .box {
+  height: 230px;
+  width: 360px;
   img {
-    height: 240px;
-    width: 360px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     padding: auto;
   }
@@ -229,14 +231,14 @@ header {
 } */
 
 .sessoes .texto {
-  width: 100%;
+  width: 360px;
   height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
-  border-radius: 0 5px;
+  border-radius: 0 1px;
 
   background-color: white;
 
